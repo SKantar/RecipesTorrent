@@ -1,6 +1,5 @@
 # RecipesTorrent
-Kademlia is a distributed hash table for decentralized peer-to-peer computer networks designed by Petar Maymounkov and David Mazières in 2002. It specifies the structure of the network and the exchange of information through node lookups. Kademlia nodes communicate among themselves using UDP. A virtual or overlay network is formed by the participant nodes. Each node is identified by a number or node ID. The node ID serves not only as identification, but the Kademlia algorithm uses the node ID to locate values (usually file hashes or keywords). In fact, the node ID provides a direct map to file hashes and that node stores information on where to obtain the file or resource.
 
-When searching for some value, the algorithm needs to know the associated key and explores the network in several steps. Each step will find nodes that are closer to the key until the contacted node returns the value or no more closer nodes are found. This is very efficient: Like many other DHTs, Kademlia contacts only O ( log ⁡ ( n ) ) {\displaystyle O(\log(n))} O(\log(n)) nodes during the search out of a total of n {\displaystyle n} n nodes in the system.
+This is an implementation of the Kademlia (http://en.wikipedia.org/wiki/Kademlia) routing protocol and DHT.
 
-Further advantages are found particularly in the decentralized structure, which increases the resistance against a denial-of-service attack. Even if a whole set of nodes is flooded, this will have limited effect on network availability, since the network will recover itself by knitting the network around these "holes".
+Kademlia original Publication: http://link.springer.com/chapter/10.1007/3-540-45748-8_5
