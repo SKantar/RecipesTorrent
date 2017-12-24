@@ -1,0 +1,6 @@
+Kada cvor na portu 3001 (dht[0]) potrazi vrijednost, on ce dobiti (u shortlist.update(...)) alpha=3
+najbliza svoja susjeda (najbliza kljucu).
+
+Ti cvorovi su: 3006 (dht[5]), 3002(dht[1]), i 3007(dht[6])
+Prilikom obrade cvora 3006, kad mu posalje find_value, on ce dobiti nazad sebe, tj. cvor 3001 sto je bug u startu.
+Nakon toga, lista se nece promijeniti.

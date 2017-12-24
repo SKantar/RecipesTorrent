@@ -1,0 +1,11 @@
+Sta bi trebalo da ispisuje:
+recept2 (sa nazivom i svim ostalim)
+
+Sta on ispisuje:
+None
+
+Podesavanja u config.py u datom folderu
+
+Analiza:
+Postoji put u grafu od cvora na portu 3007 (dht[6]) do cvora na portu 3004(dht[3]) (DIREKTAN PUT)
+Ta 2 cvora su u razlicitim kategorijama
